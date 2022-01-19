@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+ <html>
+   <head>
+    <title>kontak sekolah koding</title>
+   </head>
+  <body>
+
+
+ <!--menu website-->
+  <div>
+    <a href="index.html">home</a>
+	<a href="kontak.html">kontak</a>
+  </div
+
+<!--bagian awal, isinya tag heading-->
+  <div>
+    <h1>kontak sekolah Koding</h1>
+    <h2>&nbsp;Tutorial online untuk belajar membuat website.</h2>
+  </div>
+  
+ <!--membuat form-->
+   <form>
+   <fieldset>
+   <legend>Nama dan Pesan</legend>
+    <label for="nama_user">nama</label>
+    <input type="text" placeholder="Nama user" value="Nama Anda" id="nama_user">
+  <br>
+	<label for="pesan_user">pesan</label>
+    <textarea cols="100" rows="7" id="pesan_user">pesan saya adalah...</textarea>
+  </fieldset>
+  <br> <br>
+  <fieldset>
+  <legend>Pilihan Data</legend>
+  <label>Hobi</label> <br>
+    <input type="checkbox" name="hobi_user" value="0"> Menggambar <br>
+	<input type="checkbox" name="hobi_user" value="1"> Menulis    <br>
+	<input type="checkbox" name="hobi_user" value="2"> Melukis    
+  <br>
+  <label>jenis kelamin</label> <br>
+    <input type="radio" name="gender" value="0"> Laki-Laki<br>
+	<input type="radio" name="gender" value="1"> Perempuan<br>
+  </fieldset>
+  <br>
+  <label>Pelajaran</label>
+   <select>
+    <optgroup label="frontend">
+     <option value="html">HTML</option>
+     <option value="css">css</option>
+    </optgroup>
+	
+	<optgroup label="backend">
+     <option value="php">php</option>
+     <option value="db">database</option>
+    </optgroup>
+   </select>
+  
+    <input type="submit" value="kirim data">
+	 </form>
+  <br><br>
+  <table border="1">
+   <caption>daftar murid sekolahkoding</caption>
+   
+   <tr>
+     <th>nama murid</th>
+     <th>kota asal</th>
+    </tr>
+    <tr>
+     <td>rayhan</td>
+     <td>bandung</td>
+    </tr>
+    
+	<tr>
+     <td>ninda</td>
+     <td>jakarta</td>
+    </tr>
+    
+	<tr>
+     <td>ony</td>
+     <td>cimahi</td>
+    </tr>
+  </table>
+ 
+ <!--list pada html-->
+    <ul>
+      <li>rayhan</li> 
+	  <li>ninda</li> 
+	  <li>ony</li> 
+    </ul>
+	
+	<ol>
+      <li>rayhan</li> 
+	  <li>ninda</li> 
+	  <li>ony</li> 
+    </ol>
+	
+	<dl>
+	  <dt>
+	    <dd>rayhan merupakan user pertama di sekolahkoding</dd>
+	  </dt>
+	  
+	  <dt>
+	    <dd>ninda merupakan user kedua di sekolahkoding</dd>
+	  </dt>
+	 
+	  <dt>
+	    <dd>ony merupakan user ketiga di sekolahkoding</dd>
+	  </dt>
+	</dl>
+ 
+  <p>&copy; sekolahkoding</p>
+ </body>
+</html>
